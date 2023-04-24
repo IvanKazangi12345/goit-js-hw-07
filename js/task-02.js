@@ -14,5 +14,5 @@ const result = ingredients.map((ingredient) => {
   li.innerText = ingredient;
   li.className = "item";
   return(li);
-});
+});v
 ul.append(...result)
