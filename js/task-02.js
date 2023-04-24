@@ -12,7 +12,7 @@ const ul = document.getElementById("ingredients");
 const result = ingredients.map((ingredient) => {
   const li = document.createElement("li");
   li.innerText = ingredient;
-  li.className.add("item");
+  li.className = "item";
   return(li);
 });
 ul.append(...result);
