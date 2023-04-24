@@ -6,6 +6,12 @@ const boxesDiv = document.querySelector('#boxes');
 createBtn.addEventListener('click', createBoxes);
 destroyBtn.addEventListener('click', destroyBoxes);
 
+function getRandomHexColor() {
+  return `#${Math.floor(Math.random() * 16777215)
+    .toString(16)
+    .padStart(6, 0)}`;
+}
+
 function createBoxes() {
   const amount = input.value;
   let markup = '';
