@@ -1,6 +1,3 @@
-<ul class="gallery"></ul>
-
-
 const images = [
 {
 url: "https://images.pexels.com/photos/140134/pexels-photo-140134.jpeg?dpr=2&h=750&w=1260",
